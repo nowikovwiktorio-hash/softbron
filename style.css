@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 390px;   /* ширина iPhone */
+  height: 844px;  /* высота iPhone */
+  overflow: hidden;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Бегущая строка */
+.ticker {
+  position: absolute;
+  top: 510px;       /* опущено ниже на ~5-6 см */
+  left: 22px;       /* чуть уже область */
+  width: 346px;     /* уменьшена ширина на ~0.5 см */
+  height: 24px;     /* тонкая строка */
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.ticker-content {
+  white-space: nowrap;
+  padding-left: 100%;
+  color: #fff;
+  font-weight: 500;   /* обычный текст, не жирный */
+  font-size: 13px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  animation: ticker 160s linear infinite;
+}
+
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100%); }
+}
