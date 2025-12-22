@@ -10,7 +10,7 @@ body {
   width: 390px;   /* ширина iPhone */
   height: 844px;  /* высота iPhone */
   overflow: hidden;
-  transform: scale(1.05);     /* увеличивает всё на 5% */
+  transform: scale(1.10);     /* увеличивает всё на 5% */
 transform-origin: top center; /* масштаб от верхнего края */
 
 }
@@ -47,3 +47,4 @@ transform-origin: top center; /* масштаб от верхнего края *
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
+
