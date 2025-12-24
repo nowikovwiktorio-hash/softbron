@@ -25,7 +25,7 @@ body {
 /* Бегущая строка */
 .ticker {
   position: absolute;
-  top: 547px;       /* опущено ниже на ~5-6 см */
+  top: 545px;       /* опущено ниже на ~5-6 см */
   left: 22px;       /* чуть уже область */
   width: 346px;     /* уменьшена ширина на ~0.5 см */
   height: 24px;     /* тонкая строка */
@@ -48,6 +48,7 @@ body {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
+
 
 
 
