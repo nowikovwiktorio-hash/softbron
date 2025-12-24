@@ -10,7 +10,6 @@ body {
   width: 414px;   /* ширина iPhone */
   height: 896px;  /* высота iPhone */
   overflow: hidden;
-
 }
 
 .background {
@@ -45,6 +44,7 @@ body {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
+
 
 
 
