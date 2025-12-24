@@ -28,7 +28,7 @@ body {
   top: 541px;       /* опущено ниже на ~5-6 см */
   left: 25px;       /* чуть уже область */
   width: 364px;     /* уменьшена ширина на ~0.5 см */
-  height: 24px;     /* тонкая строка */
+  height: 25px;     /* тонкая строка */
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -48,6 +48,7 @@ body {
   from { transform: translateX(0); }
   to   { transform: translateX(-100%); }
 }
+
 
 
 
